@@ -1,7 +1,7 @@
 # 🛒 Atrezzo Vazquez Web Scraping Project
 
 <div style="text-align: center;">
-  <img src="assets/webscraping.jpg" alt="project-cover" />
+  <img src="assets/webscraping.jpeg" alt="project-cover" />
 </div>
 
 ## 📝 Project Overview
