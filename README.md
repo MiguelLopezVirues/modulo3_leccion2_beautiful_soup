@@ -8,13 +8,15 @@
 
 This project involves scraping product data from the **Atrezzo Vazquez** website, a supplier of creative props for film and media production. The goal is to extract detailed product information such as names, categories, descriptions, and images, allowing the company to better analyze its inventory.
 
-The scraped data is used to improve product listings, assist in inventory management, and support marketing efforts for a film production company offering props for a paranormal prank reality TV show.
+The scraped data can be used to improve product listings, assist in inventory management, and support marketing efforts for a film production company offering props for a paranormal prank reality TV show.
 
 Key objectives:
 
 1. Extract detailed product information across multiple pages.
 2. Organize the data into a structured format (pandas DataFrame).
-3. Support data-driven decisions for product listings and marketing.
+3. Save temporal checkpoint .csv files for every scraped page.
+4. Process scraped data and save into a definite file.
+5. Support data-driven decisions for product listings and marketing.
 
 ## 📁 Project Structure
 
