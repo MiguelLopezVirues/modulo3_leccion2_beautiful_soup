@@ -1,0 +1,49 @@
+,name,category,section,description,dimensions,image,page
+0,JUE10,Juego,Bar y cafetería  Casino,Máquina tragaperras (se enciende),47x51x136 (cm),admin/img_prod/JUE10/JUE10-1-720x540.png,25
+1,SIL10,Silla,Comedor  Isabelino  Salón,Silla isabelina negra tapizada damasco rojo,48x46x96 (cm),admin/img_prod/SIL10/SIL10-1-720x540.png,25
+2,MEC10,Mecedora,,Sillón basculante caoba con cojines,62x75x95 (cm),admin/img_prod/MEC10/MEC10-1-720x540.png,25
+3,MOS10,Mostrador,Bar y cafetería  Tienda,Mostrador con tablas de pino y tachuelas,128x41x113 (cm),admin/img_prod/MOS10/MOS10-1-720x540.png,25
+4,LOG10,Logicine,Despacho,Banqueta giratoria hierro y madera,32x32x55 (cm),admin/img_prod/LOG10/LOG10-1-720x540.png,25
+5,S10,Sofá,Frances  Salón,Sofá Luis XV dorado tapizado morado,150x57x95 (cm),admin/img_prod/S10/S10-720x540.png,25
+6,ILU10,Iluminación,,Pantalla fluorescente gris punta redonda de 1,1x1x1 (cm),admin/img_prod/ILU10/ILU10-720x540.png,25
+7,PV10,Pie de vela,Candelero  Hachero  Iglesia  Medieval,Hachero de suelo 1 luz aro calado,45x45x175 (cm),admin/img_prod/PV10/PV10-1-720x540.png,25
+8,SEC10,Secreter,Salón,Secreter alto oscuro,91x42x140 (cm),admin/img_prod/SEC10/SEC10-1-720x540.png,25
+9,VI10,Vitrina,Iglesia,Vitrina hornacina nogal interior forrado,55x40x65 (cm),admin/img_prod/VI10/VI10-1-720x540.png,25
+10,PEL10,Peluquería,Americano,Sillones de barbería antiguos de madera con reposapiés,54x57x116 (cm),admin/img_prod/PEL10/PEL10-1-720x540.png,25
+11,PER10,Perchero,Italiano  Recibidor,Perchero de pared niquelado con espejo y cuadro perro,108x10x175 (cm),admin/img_prod/PER10/PER10-720x540.png,25
+12,SR10,Silla de ruedas,Descatalogado,Descatalogado,0x0x0 (cm),admin/img_prod/SR10/LOGOTIPO VAZQUEZ- 720x540.png,25
+13,PC10,Pizarra,Colegio,Pizarra de colegio marco chapa azul,243x5x122 (cm),admin/img_prod/PC10/PC10-720x540.png,25
+14,CAM10,Cámara fotos y vídeo,Proyectores de super ocho,Proyector 8mm EUMIK MARK 216,1x1x1 (cm),admin/img_prod/CAM10/CAM10-720x540.png,25
+15,JUZ10,Juzgado,Juzgados,Barandilla de juzgado nogal de 3´30 metros,330x7x85 (cm),admin/img_prod/JUZ10/JUZ10-720x540.png,25
+16,QIN10,Quinqués,,Quinqué escayola pintada,1x1x1 (cm),admin/img_prod/QIN10/QIN10-720x540.png,25
+17,ARA10,Atrezzo Árabe,Arabe,Bandeja árabe metal con pie,51x51x33 (cm),admin/img_prod/ARA10/ARA10-1-720x540.png,25
+18,MOU10,Mobiliario urbano,Calle,Carcasa cajero automático gris,0x0x0 (cm),admin/img_prod/MOU10/MOU10-1-720x540.png,25
+19,CDM10,Centro de mesa,Adorno,Centro de mesa de cristal,0x0x0 (cm),admin/img_prod/CDM10/CDM10-720x540.png,25
+20,PAP10,Papelera,,Papelera de chapa redonda,0x0x0 (cm),admin/img_prod/PAP10/PAP10-720x540.png,25
+21,FIG10,Figuras,Adorno,Figura de escayola grande Venus Milo,0x0x0 (cm),admin/img_prod/FIG10/FIG10-720x540.png,25
+22,PLA10,Playa,Hamaca  Jardín,Hamaca de madera plegable pintada blanca,0x0x0 (cm),admin/img_prod/PLA10/PLA10-2-720x540.png,25
+23,REG10,Religión,Cruces  Religioso  Gótico,Crucifijo madera talla cartón gótico,0x0x0 (cm),admin/img_prod/REG10/REG10-720x540.png,25
+24,RU10,Rural,,Aguadera de esparto de burro,0x0x0 (cm),admin/img_prod/RU10/RU10-720x540.png,25
+25,ALF11,Alfombra,Arabe  Comedor  Salón,Alfombra persa marrón,247x194x1 (cm),admin/img_prod/ALF11/ALF11-720x540.png,25
+26,AFC11,Alfombra de cama,Arabe  Dormitorio,Alfombrín de cama persa azul con fleco,100x60x1 (cm),admin/img_prod/AFC11/AFC11-720x540.png,25
+27,AP11,Aparador,Comedor  Estilo mil novecientos,Aparador 1900 claro 2 cuerpos,140x54x190 (cm),admin/img_prod/AP11/AP11-1-720x540.png,25
+28,ARC11,Arcon,Palacio,Arcón tapa piramidal tapizado damasco verde,150x50x90 (cm),admin/img_prod/ARC11/ARC11-1-720x540.png,25
+29,AR11,Armario,Dormitorio,Armario nogal 2 puertas molduras negras,136x58x239 (cm),admin/img_prod/AR11/AR11-1-720x540.png,25
+30,ARM11,Armero,Rústico,Porta-lanzas rústico,100x20x120 (cm),admin/img_prod/ARM11/ARM11-1-720x540.png,25
+31,ATD11,Ataud,,Ataúd de niño auténtico con cruz cobre,42x97x40 (cm),admin/img_prod/ATD11/ATD11-720x540.png,25
+32,ATR11,Atril,,Atril tapizado,63x52x107 (cm),admin/img_prod/ATR11/ATR11-1-720x540.png,25
+33,BAC11,Banco,Arabe,Banco árabe con celosía respaldo,160x50x105 (cm),admin/img_prod/BAC11/BAC11-1-720x540.png,25
+34,BAN11,Banqueta,Imperio,Banqueta imperio caoba tapizada,56x40x46 (cm),admin/img_prod/BAN11/BAN11-1-720x540.png,25
+35,M11,Mesa,Auxiliar  Español,Mesa estilo español patas torneadas con hierros,128x64x82 (cm),admin/img_prod/M11/M11-1-720x540.png,25
+36,BA11,Baño,Bañera,Bañera acrílica patas garra doradas,73x113x78 (cm),admin/img_prod/BA11/BA011-1-removebg-preview.png,25
+37,BRL11,Barril,Bidón,Bidón de chapa pequeño con asas y pitorros,30x30x60 (cm),admin/img_prod/BRL11/BRL11-720x540.png,25
+38,BAS11,Bascula,Farmacia  Hospital,Báscula de farmacia figurada,30x38x90 (cm),admin/img_prod/BAS11/BAS11-1-720x540.png,25
+39,BAU11,Baul,Almacenaje  Viaje,Baúl chapa tapa recta con patas,90x45x58 (cm),admin/img_prod/BAU11/BAU11-1-720x540.png,25
+40,BEB11,Bebé,Descatalogado,,0x0x0 (cm),admin/img_prod/BEB11/LOGOTIPO VAZQUEZ- 720x540.png,25
+41,ESC11,Escaleras,Rústico,Escalera de troncos,68x12x350 (cm),admin/img_prod/ESC11/ESC11-720x540.png,25
+42,BIO11,Biombo,Dormitorio,Biombo 3 hojas forrado terciopelo marrón,117x4x170 (cm),admin/img_prod/BIO11/BIO11-720x540.png,25
+43,CAB11,Caballete,Pintor,Caballete de pintor plegable de pino,60x60x143 (cm),admin/img_prod/CAB11/CAB11-720x540.png,25
+44,CAR11,Caja registradora,Tienda,Caja registradora con cajón Gold (funciona),40x42x30 (cm),admin/img_prod/CAR11/CAR11-1-720x540.png,25
+45,CAJ11,Caja,Almacenaje  Cajas,Caja de embalaje madera asas cuerda.,130x70x55 (cm),admin/img_prod/CAJ11/CAJ11-720x520.png,25
+46,CA11,Cama,Dormitorio  Frances,Cama Luis XV caoba y pinturas,125x190x158 (cm),admin/img_prod/CA11/CA11-720x540.png,25
+47,REC11,Reclinatorio,Iglesia  Religioso,Reclinatorio recto tapizado damasco rojo,42x38x90 (cm),admin/img_prod/REC11/REC11-1-720x540.png,25

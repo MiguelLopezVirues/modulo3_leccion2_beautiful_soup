@@ -6,10 +6,16 @@ import random
 import time
 from typing import Dict
 from tqdm import tqdm
+import shutil
+import os
+
+
 
 def extract_atrezzo(start: int = 1, n_pages: int = 1, limit: int = 48) -> pd.DataFrame:
     """
     Extract data from atrezzo website over multiple pages.
+    Create '../data/saved' directory and for each page, save page's csv into it ofr recovery in case of error.
+    After completion, remove '../data/saved' folder and save final csv into '../data/scraped'.
     
     Args:
         start: The starting page number.
@@ -19,9 +25,15 @@ def extract_atrezzo(start: int = 1, n_pages: int = 1, limit: int = 48) -> pd.Dat
     Returns:
         A DataFrame containing extracted data.
     """
+    # create directory to save each page's csv
+    os.makedirs('../data/saved', exist_ok=True)
+
+    #create directory for final csv to process
+    os.makedirs('../data/scraped', exist_ok=True)
     end = start + n_pages
     df_atrezzo = pd.DataFrame()
-    
+
+
     for n_page in tqdm(range(start, end)):
         url_request = f"https://atrezzovazquez.es/shop.php?limit={limit}&page={n_page}"
         
@@ -29,8 +41,19 @@ def extract_atrezzo(start: int = 1, n_pages: int = 1, limit: int = 48) -> pd.Dat
             df_page = extract_atrezzo_from_page(url_request, n_page)
             df_atrezzo = pd.concat([df_atrezzo, df_page])
         except:
-            print("Error extracting page:", n_page)
+            # print("Error extracting page:", n_page) toggle on if debugging
             continue
+
+        try:
+            df_page.to_csv(f"../data/saved/atrezzo_saved_page{n_page}.csv")
+        except:
+            # print("Error saving csv:", n_page) toggle on if debugging
+            continue
+
+    
+    shutil.rmtree('../data/saved')
+
+    df_atrezzo.to_csv("../data/scraped/atrezzo_scraped.csv")
 
     return df_atrezzo
 
@@ -58,11 +81,10 @@ def request_parse(url: str) -> BeautifulSoup:
 
     return response_html
 
-def get_element_info_sub():
-
 def get_element_info(element: BeautifulSoup) -> Dict[str, str]:
     """
-    Extract product information from an HTML element.
+    Extract name, category, section, description, dimensions and image 
+    from an HTML element.
     
     Args:
         element: HTML element containing product info.
@@ -71,22 +93,25 @@ def get_element_info(element: BeautifulSoup) -> Dict[str, str]:
         A dictionary of extracted product details.
     """
     # time.sleep(random.random() * 2)
-    
-    sub_element_info = {
-        "name": element.find("a", {"class": "title"}).text.strip(),
-        "category": element.find("a", {"class": "tag"}).text.strip(),
-        "section": element.find("div", {"class": "cat-sec"}).text.strip(),
-        "description": element.find("p").text.strip(),
-        "dimensions": element.find("div", {"class": "price"}).find("div").text.strip(),
-        "image": element.find("div", {"class": "product-image"}).find_all("img")[0]["src"]
+
+    dictionary = dict()
+
+    fields = {
+        "name": lambda e: e.find("a", {"class": "title"}).text.strip(),
+        "category": lambda e: e.find("a", {"class": "tag"}).text.strip(),
+        "section": lambda e: e.find("div", {"class": "cat-sec-box"}).text.strip(),
+        "description": lambda e: e.find("p").text.strip(),
+        "dimensions": lambda e: e.find("div", {"class": "price"}).find("div").text.strip(),
+        "image": lambda e: e.find("div", {"class": "product-image"}).find_all("img")[0]["src"]
     }
     
-    dictionary = dict()
-    for field, info in sub_element_info.items():
+    for field, extractor in fields.items():
         try:
-            dictionary[field] = info
-        except:
+            dictionary[field] = extractor(element)
+        except Exception as ex:
+            # print(f"Problem with {field}: {ex}") toggle on if debugging
             dictionary[field] = np.nan
+
     return dictionary
 
 def extract_atrezzo_from_page(url: str, n_page: int) -> pd.DataFrame:
@@ -112,6 +137,7 @@ def extract_atrezzo_from_page(url: str, n_page: int) -> pd.DataFrame:
         try:
             lista_dicts.append(get_element_info(element))
         except:
+            print(get_element_info(element))
             print(f"Error processing element on page {n_page}")
             continue
 

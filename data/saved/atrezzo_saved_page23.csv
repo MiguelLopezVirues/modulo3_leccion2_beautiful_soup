@@ -1,0 +1,49 @@
+,name,category,section,description,dimensions,image,page
+0,SR9,Silla de ruedas,Hospital,Silla de ruedas plegable antigua tapizada marrón,1x1x1 (cm),admin/img_prod/SR9/SR9-720x540.png,23
+1,PC9,Pizarra,Colegio  Despacho,Pizarra de corcho marco aluminio,150x5x100 (cm),admin/img_prod/PC9/PC9-720x540.png,23
+2,CAM9,Cámara fotos y vídeo,Descatalogado,Descatalogado,0x0x0 (cm),admin/img_prod/CAM9/LOGOTIPO VAZQUEZ- 720x540.png,23
+3,JUZ9,Juzgado,Juzgados,Barandilla juzgado nogal balaustres de 1´80 metros,180x7x100 (cm),admin/img_prod/JUZ9/JUZ9-720x540.png,23
+4,QIN9,Quinqués,,Quinqué pequeño cristal blanco con asa,1x1x1 (cm),admin/img_prod/QIN9/QIN9-720x540.png,23
+5,MOU9,Mobiliario urbano,Calle,Carcasa cajero automático gris,0x0x0 (cm),admin/img_prod/MOU9/MOU9-1-720x540.png,23
+6,LOG9,Logicine,Despacho  Estudio,Silla giratoria de madera,47x45x90 (cm),admin/img_prod/LOG9/SIL442-1-720x540.png,23
+7,CDM9,Centro de mesa,Adorno,Centro de mesa cobrizado con tapa,0x0x0 (cm),admin/img_prod/CDM9/CDM9-720x540.png,23
+8,PAP9,Papelera,,Papelera de alambre,0x0x0 (cm),admin/img_prod/PAP9/PAP9-720x540.png,23
+9,FIG9,Figuras,Adorno,Figura de escayola grande tortuga,0x0x0 (cm),admin/img_prod/FIG9/FIG9-720x540.png,23
+10,PLA9,Playa,Hamaca  Jardín,Hamaca de madera con ruedas pintada blanca,0x0x0 (cm),admin/img_prod/PLA9/PLA9-1-720x540.png,23
+11,REG9,Religión,Cruces  Religioso,Crucifijo de pared grande escayola,0x0x0 (cm),admin/img_prod/REG9/REG9-720x540.png,23
+12,RU9,Rural,Oficios  Rústico,Piedra de afilar antigua,75x56x100 (cm),admin/img_prod/RU9/RU9-1-720x540.png,23
+13,BUZ9,Buzones,Americano  Calle,Buzón americano de aluminio con pie,48x17x120 (cm),admin/img_prod/BUZ9/BUZ9-1-720x540.png,23
+14,ALA10,Alacena,Cocina,Alacena de cocina de colgar puertas con celosía,65x41x58 (cm),admin/img_prod/ALA10/ALA10-720x540.png,23
+15,ALF10,Alfombra,Comedor  Salón,Alfombra dibujos marrones,220x160x1 (cm),admin/img_prod/ALF10/ALF10-720x540.png,23
+16,AFC10,Alfombra de cama,Dormitorio,Alfombrín cama tonos marrones,110x60x1 (cm),admin/img_prod/AFC10/AFC10-720x540.png,23
+17,AP10,Aparador,Inglesa  Comedor,Aparador inglés caoba y marquetería,190x44x82 (cm),admin/img_prod/AP10/AP10-1-720x540.png,23
+18,ARC10,Arcon,Arabe  Dormitorio,Arcón árabe skay rojo con tachuelas y patas,1x1x1 (cm),admin/img_prod/ARC10/ARC10-1-720x540.png,23
+19,AR10,Armario,Dormitorio,Armario nogal 2 puertas (1 espejo) y cajones,153x55x235 (cm),admin/img_prod/AR10/AR10-1-720x540.png,23
+20,ARM10,Armero,Medieval,Porta-lanzas recortado,65x25x83 (cm),admin/img_prod/ARM10/ARM10-1-720x540.png,23
+21,ATD10,Ataud,,Ataúd auténtico caoba con crucifijo,62x197x52 (cm),admin/img_prod/ATD10/ATD10-1-720x540.png,23
+22,ATR10,Atril,Gótico  Religioso,Atril gótico nogal tallado,48x33x88 (cm),admin/img_prod/ATR10/ATR10-1-720x540.png,23
+23,BAC10,Banco,,Banco tapizado terciopelo patas rectas,1x1x1 (cm),admin/img_prod/BAC10/BAC10-720x540.png,23
+24,BAN10,Banqueta,Inglesa,Banqueta inglesa caoba tela rameada,145x45x54 (cm),admin/img_prod/BAN10/BAN10-1-720x540.png,23
+25,M10,Mesa,Jardín,Mesa de jardín 3 patas tapa madera,69x69x70 (cm),admin/img_prod/M10/M10-1-720x540.png,23
+26,BA10,Baño,Bañera,Bañera fibra pintada,175x77x72 (cm),admin/img_prod/BA10/BA10-1-720x540.png,23
+27,BAR10,Bargueño,Descatalogado,,0x0x0 (cm),admin/img_prod/BAR10/LOGOTIPO VAZQUEZ- 720x540.png,23
+28,BRL10,Barril,Bidón,Bidón de chapa cilíndrico gris sin tapa,59x59x87 (cm),admin/img_prod/BRL10/BRL10-1-720x540.png,23
+29,BAS10,Bascula,Farmacia  Hospital,Báscula de farmacia digital,32x50x228 (cm),admin/img_prod/BAS10/BAS10-720x540.png,23
+30,BAU10,Baul,Almacenaje  Viaje,Baúl tapa recta pintada marrón,70x37x38 (cm),admin/img_prod/BAU10/BAU10-1-720x540.png,23
+31,BEB10,Bebé,Cochecito,Cochecito de bebé azul y niquelado,106x50x94 (cm),admin/img_prod/BEB10/BEB10-1-720x540.png,23
+32,ESC10,Escaleras,Almacenaje,Escalera de 1 subida de madera,56x5x225 (cm),admin/img_prod/ESC10/ESC10-720x540.png,23
+33,BIO10,Biombo,Dormitorio,Biombo 4 hojas tapizado tela barcos,180x4x160 (cm),admin/img_prod/BIO10/BIO10-720x540.png,23
+34,BRA10,Brasero,Descatalogado,DESCATALOGADO,0x0x0 (cm),admin/img_prod/BRA10/LOGOTIPO VAZQUEZ- 720x540.png,23
+35,CAB10,Caballete,Pintor,Caballete de pintor 3 pies pintado,70x70x175 (cm),admin/img_prod/CAB10/CAB10-720x540.png,23
+36,CAR10,Caja registradora,Tienda,Caja registradora con cajón grande,40x45x30 (cm),admin/img_prod/CAR10/CAR10-1-720x540.png,23
+37,CAJ10,Caja,Almacenaje  Cajas,Caja de embalaje de madera con tapa,1x1x1 (cm),admin/img_prod/CAJ10/CAJ10-720x540.png,23
+38,CA10,Cama,Cabecero  Dormitorio,Cabecero para somier de 120 cerezo con mueble lateral,170x15x85 (cm),admin/img_prod/CA10/CA10-1-720x540.png,23
+39,REC10,Reclinatorio,Iglesia  Religioso,Reclinatorio madera dorado recortado calado,52x40x82 (cm),admin/img_prod/REC10/REC10-1-720x540.png,23
+40,CARR10,Carretilla,Mercado  Rústico,Carro de madera con rueda de bicicleta,125x68x93 (cm),admin/img_prod/CARR10/CARR10-1-720x540.png,23
+41,CSE10,Carro de servicio,Cocina  Comedor  Salón,Carro servicio metal y cristal con asa.,75x46x67 (cm),admin/img_prod/CSE10/CSE10-1-720x540.png,23
+42,CH10,Chaiselongue,Salón,Chaiselonge tubo tapizada tela brillante.,1x1x1 (cm),admin/img_prod/CH10/CH10-1-720x540.png,23
+43,CO10,Cocinas,Electrodomestico,Horno de hierro eléctrico con patas,34x31x33 (cm),admin/img_prod/CO10/CO10-1-720x540.png,23
+44,COM10,Comoda,Dormitorio,Cómoda dos tonos y marquetería 4 cajones,100x46x103 (cm),admin/img_prod/COM10/COM10-1-720x540.png,23
+45,CON10,Consola,Recibidor  Imperio,Consola imperio nogal 4 patas con tapa mármol blanco,120x34x87 (cm),admin/img_prod/CON10/CON10-1-720x540.png,23
+46,CU10,Cuadro,Batalla,Cuadro marco dorado liso fotografía Batalla (Autor Tintoreto),310x5x190 (cm),admin/img_prod/CU10/CU10-720x540.png,23
+47,ANU10,Carteles y anuncios,Tienda,Cartel antiguo chapa anuncio americano,15x1x15 (cm),admin/img_prod/ANU10/ANU10-720x540.png,23
